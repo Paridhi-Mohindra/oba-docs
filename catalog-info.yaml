@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "OBA-Documentation"
+  description: "Documentation for Open Banking Accelerator"
+  annotations:
+    github.com/project-slug: Paridhi-Mohindra/oba-docs
+    backstage.io/techdocs-ref: url:https://github.com/Paridhi-Mohindra/oba-docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "Paridhi"
